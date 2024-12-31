@@ -1,0 +1,25 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "My First React App for NamasteREACT",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SuriyaKumarD/React.git"
+  },
+  "keywords": [
+    "NamasteReact"
+  ],
+  "author": "Suriya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuriyaKumarD/React/issues"
+  },
+  "homepage": "https://github.com/SuriyaKumarD/React#readme",
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  }
+}
