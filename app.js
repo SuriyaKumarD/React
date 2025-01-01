@@ -55,14 +55,24 @@ const root = ReactDOM.createRoot(document.getElementById("root1"));
 
 //functional React Component
 
+const elem = <h1>This is from a React Element!!🫡</h1>;
+
 const Title = () => (
   <div id="heading">
     <h1> Hello Suriya, Welcome to JSX , Functional World!!!😚</h1>
   </div>
 );
+const test = <div>{Title()}</div>;
 const Heading = () => (
+  //component composition
+
+  //ways of writing composition of a component
   <div id="container">
+    {elem}
+    {test}
+    {Title()}
     <Title />
+    <Title></Title>
     <h1 className="heading">Im Hopefull of Completing Namaste React 🚀</h1>
   </div>
 );
