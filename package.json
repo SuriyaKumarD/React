@@ -4,6 +4,8 @@
   "description": "My First React App for NamasteREACT",
   "main": "app.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {

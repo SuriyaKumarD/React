@@ -45,11 +45,26 @@ const parents = React.createElement(
     React.createElement(
       "h1",
       { id: "heading" },
-      "Hello Suriya, Happy New Year 2025!!"
+      "Hello Suriya🚀, Happy New Year 2025!!"
     ),
     React.createElement("h2", { id: "heading" }, "Welcome to world of React!!"),
   ])
 );
-
+const jsxValue = <h1 id="heading">Hello Suriya🚀 Welcome to JSX World!!!</h1>;
 const root = ReactDOM.createRoot(document.getElementById("root1"));
-root.render(parents);
+
+//functional React Component
+
+const Title = () => (
+  <div id="heading">
+    <h1> Hello Suriya, Welcome to JSX , Functional World!!!😚</h1>
+  </div>
+);
+const Heading = () => (
+  <div id="container">
+    <Title />
+    <h1 className="heading">Im Hopefull of Completing Namaste React 🚀</h1>
+  </div>
+);
+
+root.render(<Heading />);
