@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 /*******************************************************************************
  *
  *
@@ -39,7 +42,11 @@ const parents = React.createElement(
   "div",
   { id: "parent" },
   React.createElement("div", { id: "child" }, [
-    React.createElement("h1", { id: "heading" }, "Hello Suriya!!"),
+    React.createElement(
+      "h1",
+      { id: "heading" },
+      "Hello Suriya, Happy New Year 2025!!"
+    ),
     React.createElement("h2", { id: "heading" }, "Welcome to world of React!!"),
   ])
 );
